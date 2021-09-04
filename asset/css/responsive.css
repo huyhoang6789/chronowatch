@@ -1,0 +1,49 @@
+@media (max-width: 1239px) {
+    .header {
+        top:0;
+    }
+
+    .header__top {
+        display: none;
+    }
+    
+    .search2 {
+        display: block;
+    }
+
+    .header__main-social {
+        display: none;
+    }
+
+    .header__main-menu {
+        display: block;
+    }
+
+    .header__bottom {
+        display: none;
+    }
+}
+
+@media (max-width: 740px) {
+    .footer__column {
+        margin-left: 16%;
+    }
+
+    .commitment__authentic {
+        border-bottom: 1px dashed #fff;
+        border-right: none;
+    }
+    
+    .commitment__cashback {
+        border-top: 1px dashed #fff;
+        border-left: none;
+    }
+
+    .section__name {
+        font-size: 1.6rem;
+    }
+
+    .section__line a {
+        font-size: 1.6rem;
+    }
+}

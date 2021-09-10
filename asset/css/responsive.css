@@ -24,6 +24,38 @@
     }
 }
 
+@media (max-width: 1024px) {
+
+    .old-watch__link {
+        /* text-align: center; */
+        height: 120px;
+    }
+
+    .old-watch__link-group {
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+
+    .old-watch__link-group1 {
+        height: 70px;
+    }
+
+    .sort-bar {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    .nav__product {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+}
+
 @media (max-width: 740px) {
     .footer__column {
         margin-left: 16%;
@@ -45,5 +77,36 @@
 
     .section__line a {
         font-size: 1.6rem;
+    }
+
+    .product__img-and-info {
+        display: block;
+    }
+
+    .product__img-group,
+    .product__info{
+        width: 100%;
+    }
+
+    .product__comit,
+    .product__showroom,
+    .product__opentime,
+    .product__list,
+    .product__keyword {
+        width: 86%;
+    }
+
+    .product__tabs,
+    .product__tab-content {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .product__name-mail {
+        display: block;
+    }
+
+    .product__button-contact {
+        margin-right: 20px;
     }
 }
